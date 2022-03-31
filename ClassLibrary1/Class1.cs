@@ -1,7 +1,7 @@
 ﻿/// <summary>
 /// Class Employee: private _emplID, _emplName, _job
 /// Instance properties and static properties
-/// Set & get accessors
+/// Set and get accessors
 /// Read-only and write-only properties
 /// </summary>
 public class Employee
@@ -14,7 +14,7 @@ public class Employee
     private double _tax; //can use the _tax value only for calculations in the same class
 
     /// <summary>
-    /// instance property EmplID set & get
+    /// instance property EmplID set and get
     /// </summary>
     public int EmplID
     {
@@ -29,7 +29,7 @@ public class Employee
     }
 
     /// <summary>
-    /// instance property EmplName set & get
+    /// instance property EmplName set and get
     /// </summary>
     public string EmplName
     {
@@ -38,7 +38,7 @@ public class Employee
     }
 
     /// <summary>
-    /// instance property Job set & get
+    /// instance property Job set and get
     /// </summary>
     public string Job
     {
@@ -50,7 +50,7 @@ public class Employee
     private static string _companyName;
 
     /// <summary>
-    /// static property CompanyName set & get
+    /// static property CompanyName set and get
     /// </summary>
     public static string CompanyName
     {
